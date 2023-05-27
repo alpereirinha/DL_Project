@@ -1,23 +1,21 @@
-
 from sklearn.model_selection import train_test_split
 
 # Split the data into training and temporary data
-train_data, temp_data = train_test_split(df_en, test_size=0.2, random_state=42)
+train_data, test_data = train_test_split(df_en, test_size=0.2, random_state=42)
 
 # Split the temporary data into validation and test sets
-val_data, test_data = train_test_split(temp_data, test_size=0.5, random_state=42)
 
 # train_data will contain 80% of the data for training
 # val_data will contain 10% of the data for validation
 # test_data will contain 10% of the data for testing
 # Selecionar apenas a coluna desejada
-test_data1 = test_data[['LyricsClean']]
+test_data1 = test_data[['LyricsClean','sentiment']]
 
 # Gravar o DataFrame com apenas a coluna desejada em um arquivo CSV
 
-train_data.to_csv('train_data.csv', index=False)
-val_data.to_csv('val_data.csv', index=False)
-test_data1.to_csv('test_data.csv', index=False)
+train_data.to_csv('train.csv', index=False)
+
+test_data1.to_csv('test.csv', index=False)
 
 #gpt = pd.read_csv('test_data.csv')
 
