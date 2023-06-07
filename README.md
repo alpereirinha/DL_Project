@@ -1,7 +1,10 @@
-# Deep Learning Project
+# **Deep Learning Project**
 
 
-## Group Members:
+## **Contributors**
+
 [@Anabela Pereira](https://github.com/alpereirinha)
+
 [@Cláudia Ribeiro](https://github.com/claudiadmr)
+
 [@Sara Marques](https://github.com/haz145)
