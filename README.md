@@ -11,3 +11,6 @@ This project attempts to use different approaches, namely zero-shot, one-shot an
 [@Cláudia Ribeiro](https://github.com/claudiadmr)
 
 [@Sara Marques](https://github.com/haz145)
+
+
+## Final Grade: 14.1 / 20
